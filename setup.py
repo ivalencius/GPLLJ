@@ -5,7 +5,7 @@ import os
 import yaml
 
 # Quality of life imports
-#from rich import print
+from rich import print
 
 ### Change these paths for your own use
 CWD = '/home/valencig/GPLLJ/' # change this
