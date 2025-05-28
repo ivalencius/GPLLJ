@@ -5,6 +5,7 @@ channels:
 dependencies:
 - python==3.12.*
 - aiohttp
+- altair
 - cartopy
 - cdsapi
 - cfgrib
