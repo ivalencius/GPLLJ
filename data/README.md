@@ -3,7 +3,7 @@
 Small data files which are suitable to be stored in this repository. Larger files are stored in the scratch directory. The path to which is stored in the config.yml file.
 
 ## IPCC-WGI-reference-regions-v4_coordinates.csv
-The IPCC Sixth Assessment Report (AR6) provides a grid of 57 different regions. We will use the Central North America (CNA) region as the backbone of our regridding. The CSV file was downloaded from [The ATLAS archive](https://github.com/SantanderMetGroup/ATLAS/blob/devel/reference-regions/IPCC-WGI-reference-regions-v4_coordinates.csv). The CSV contains the vertices of the region and is in EPSG:4326.
+The IPCC Sixth Assessment Report (AR6) provides a grid of 57 different regions. We will use the Central North America (CNA) region as the backbone of our regridding. The CSV file was downloaded from [The ATLAS archive](https://github.com/SantanderMetGroup/ATLAS/blob/devel/reference-regions/IPCC-WGI-reference-regions-v4_coordinates.csv). The CSV contains the vertices of the region and is in EPSG:4326. The bounding box of the whole CNA region (top left to bottom right) is (-105, 50) to (-90, 25).
 
 > @article{iturbide2020update,
   title={An update of IPCC climate reference regions for subcontinental analysis of climate model data: Definition and aggregated datasets},

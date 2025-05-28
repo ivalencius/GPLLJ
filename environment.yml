@@ -27,6 +27,7 @@ dependencies:
 - intake-xarray==0.7.0
 - ipykernel
 - iris
+- isd-fetch
 - jupyter
 - jupyterlab
 - jupytext
