@@ -14,3 +14,4 @@ SCRATCH_DIR = '/scratch/valencig/GPLLJ-Scratch/'
 
 os.chdir(CWD)
 DATA_DIR = os.path.join(CWD, 'data/')
+FIG_DIR = os.path.join(CWD, 'figures/')
