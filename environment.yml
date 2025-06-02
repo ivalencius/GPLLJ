@@ -65,6 +65,7 @@ dependencies:
 - pip:
   - isd-fetch
   - gribscan
+  - pymannkendall
   - rich
 
 name: llj
