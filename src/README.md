@@ -1,12 +1,13 @@
 # Description of all codes
 
-## /data-download/
+## Case files
+- `setup-case.sh`: setting up 4 CESM2 cases with all momentum terms
+- For branched cases with thermodynamic terms refer to `commands-for-Q-case.txt` and `cp-branch-files.sh`
+- `extended_variable_info.csv`: all possible CESM2 variables (Note: some may output null values as they are depreciated/inactive)
+- `transfer-files.sh`: transfers files from my scratch to the bccg scratch, clips CESM2 files to the NH
+- `postprocesCESM2.py`: merge all CESM2 files, convert to isobaric coordinates, adjust UTC to LT, add topography
+- `run__`: for running files on slurm cluster 
+- `interpolation.py`: barely modified code from geocat to interpolate from hybrid-sigma coordinates to isobaric coordinates
 
-All codes in this folder download and process the associated dataset. Large files are saved to `SCRATCH_DIR` (inside `../setup.py`) while smaller files (such as metadata need to download data) is stored inside `../data/`.
-
-## GHCNh_cna.ipynb
-
-This file looks at near surface (10 m) wind speed trends for the Global Historical Climatology Network hourly (GHCNh) dataset. It is designed as the replacement for the Integrated Surface Database (ISD).
-
-## cna_grid.ipynb (TBD)
-Creates the CNA grid used to harmonize all model data.
+## For sharing
+- `GPLLJ.ipynb`: base file with all analysis
